@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 
+import Footer from './components/Footer';
+
 import './App.css';
 
 class App extends React.Component {
@@ -47,12 +49,10 @@ class App extends React.Component {
                 <Link className="nav-link" to="/portfolio">Portfolio</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
-
             </Navbar.Collapse>
-
           </Navbar>
 
-
+          <Footer />
           
         </Container>
       </Router>
