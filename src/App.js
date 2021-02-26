@@ -5,8 +5,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
 
 import './App.css';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 class App extends React.Component {
 
@@ -51,6 +54,11 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+
+          <Route path="/" exact render={() => <HomePage  title={this.state.Home.title} subTitle={this.state.Home.subTitle} text={this.state.Home.text} />} />
+          <Route path="/portfolio" exact render={() => <Portfolio title={this.state.portfolio.title}  />} />
+          <Route path="/contact" exact render={() => <Contact title={this.state.contact.title}  />} />
 
           <Footer />
           
