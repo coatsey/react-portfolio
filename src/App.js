@@ -24,7 +24,7 @@ class App extends React.Component {
       ],
       Home: {
         title: "About Me",
-        subTitle: '',
+        subTitle: 'Logan Coates',
         text: ''
       },
       portfolio: {

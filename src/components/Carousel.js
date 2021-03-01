@@ -5,8 +5,8 @@ import Card from '../components/Card';
 
 import notetaker from '../assets/images/notetaker.png';
 import Budget from '../assets/images/budget.png';
-// import evverest from '../assets/images/evverest.png';
 import Container from 'react-bootstrap/Container';
+import Game from '../assets/images/game.png';
 import Row from 'react-bootstrap/Row';
 
 class Carousel extends React.Component {
@@ -33,10 +33,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    // imgSrc: evverest,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    title: 'Memory game',
+                    subTitle: 'Super Smash bros memory game',
+                    imgSrc: Game,
+                    link: 'https://memory-games-project.herokuapp.com/',
                     selected: false
                 },
             ]
@@ -45,6 +45,7 @@ class Carousel extends React.Component {
 
 
     handleCardClick = (id, card) => {
+    
 
         let items = [...this.state.items];
 

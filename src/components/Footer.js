@@ -14,7 +14,7 @@ function Footer() {
                         Logan Coates
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" MD={3}>
-                        This
+                        Copyright 2021
                     </Col>
                 </Row>
             </Container>
