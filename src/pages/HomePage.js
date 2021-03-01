@@ -5,7 +5,7 @@ import About from '../components/About';
 function HomePage(props) {
     
     return(
-        <About />
+        <About title={props.title} subTitle={props.subTitle} />
     );
 }
 
