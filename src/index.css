@@ -59,3 +59,36 @@ code {
   margin-left: auto;
   margin-right: auto;
 }
+
+.contact-img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-tag {
+ text-align: center;
+ font-size: larger;
+}
+
+.github-img {
+  display: block;
+  width: 300px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.a-tag {
+  text-align: center;
+  font-size: larger;
+ }
+
+ .linkedin-img {
+  display: block;
+  width: 300px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+ }
